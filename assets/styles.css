@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+   background: #666666;
+    background: radial-gradient(circle, rgba(102, 102, 102, 1) 96%, rgba(74, 168, 87, 0.85) 100%);
+    color: #333;
+    
+    
+}
+
+header.cabecera{
+    background: #c2bebe;
+    background: radial-gradient(circle, rgba(194, 190, 190, 1) 72%, rgba(133, 133, 133, 0.83) 100%);
+    color: #fff;
+    padding: 16px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    position: relative;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.burguer-menu{
+    font-size: 28px;
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.burguer-menu:hover{
+    transform: scale(1.1);
+}
+
+.menu-principal{
+    display: flex;
+    gap: 24px;
+}
+
+.menu-principal a{
+    color: #292929;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    transition: background 0.6s , color 0.6s ;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+}
+
+.menu-principal a:hover{
+    background-color: #797979;
+    color: #fff;
+     transform: scale(1.1);
+}
+
+@media screen and (max-width: 700px) {
+    .burguer-menu{
+        display: block;
+    }
+    .menu-principal{
+        display: none;
+        flex-direction: column;
+        gap: 12px;
+        background: #c2bebe;
+        background: radial-gradient(circle, rgba(194, 190, 190, 1) 72%, rgba(133, 133, 133, 0.83) 100%);
+        align-items: center;
+        position: absolute;
+        top:100%;
+        right: 0;
+        left: 0;
+        padding: 15px 20px;
+        box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+        z-index: 100;
+        font-weight: bold;
+    }
+    .menu-principal.menu-desplegado{
+        display: flex;
+    }
+
+    .menu-principal a{
+        padding: 10px 12px;
+        font-size: 17px;
+    }
+}
+
+main{
+    padding: 90px;
+    
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-principal{
+    
+    
+    border-radius: 100px;
+    box-shadow:
+    0 8px 20px rgba(74, 168, 87, 0.9),   /* sombra verde */
+    0 4px 10px rgba(102, 102, 102, 0.6); /* sombra gris */
+  border: 3px solid white; /* opcional para hacer contraste */
+    width: 500px;
+    
+}
+
+.proyectos{
+    padding: 10px;
+}
+
+.la-cuina-de-sanblas{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.la-cuina-texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    text-align: center;
+    
+}
+
+.la-cuina-de-sanblas img {
+    border-radius: 100px;
+    box-shadow:
+    0 8px 20px rgba(74, 168, 87, 0.9),   /* sombra verde */
+    0 4px 10px rgba(102, 102, 102, 0.6); /* sombra gris */
+  border: 3px solid white; /* opcional para hacer contraste */
+}
+
+h2{
+    padding-top:  90px; 
+    text-align: center;
+    font-size: 46px;
+}
+
+.mas-que-burguer{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.mas-que-burguer-texto{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    text-align: center;
+}
+
+.mas-que-burguer img {
+    border-radius: 100px;
+    box-shadow:
+    0 8px 20px rgba(74, 168, 87, 0.9),   /* sombra verde */
+    0 4px 10px rgba(102, 102, 102, 0.6); /* sombra gris */
+    border: 3px solid white; /* opcional para hacer contraste */
+    width: 400px;
+}
+
+.rima-consulting{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.rima-consulting-texto{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    text-align: center;
+}
+
+.rima-consulting img {
+    border-radius: 100px;
+    box-shadow:
+    0 8px 20px rgba(74, 168, 87, 0.9),   /* sombra verde */
+    0 4px 10px rgba(102, 102, 102, 0.6); /* sombra gris */
+    border: 3px solid white; /* opcional para hacer contraste */
+    width: 400px;
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 46px;
+}
+.cv p{
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    width: 50%;
+    text-align: center;
+    
+}
+
+.sobre-mi{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.sobre-mi-texto{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(199, 199, 199);
+    text-align: center;
+}
+
+.sobre-mi img {
+    border-radius: 100px;
+    box-shadow:
+    0 8px 20px rgba(74, 168, 87, 0.9),   /* sombra verde */
+    0 4px 10px rgba(102, 102, 102, 0.6); /* sombra gris */
+    border: 3px solid white; /* opcional para hacer contraste */
+    width: 400px;
+}
+.sobre-mi-h3{
+    padding-top: 90px;
+}
+
+footer{
+    background-color: #333;
+    color:rgb(199, 199, 199); 
+    padding: 4%;
+}
+
+.contacto{
+    padding-top: 1%;
+}
+.copyright{
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.politica{
+    
+}
+
