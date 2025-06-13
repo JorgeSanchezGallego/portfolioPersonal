@@ -390,6 +390,11 @@ footer{
         
     }
 @media (max-width: 741px){
+    #consentBox {
+      
+      right: 4%;
+      
+   }
     .logo-politica img{
         width: 300px;
         
