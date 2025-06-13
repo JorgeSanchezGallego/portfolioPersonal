@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jorge Sánchez Gallego">
+    <meta name="description" content="Desarrollador web, portfolio personal de Jorge Sánchez. ">
+    <meta name="keywords" content="Paginas web, creacion paginas web, desarrollo web, portfolio personal">
+    <link rel="canonical" href="https://JorgeSanchez.vercel.app/">
+    <meta name="address" content=" Alicante, España">
+    <meta name="geo.placename" content="Alicante">
+    <meta name="geo.region" content="ES-A">
+    <meta property="og:title" content="Jorge Sánchez - Web Developer">
+    <meta property="og:description" content="Portfolio personal de Jorge Sánchez!">
+    <meta property="og:url" content="https://JorgeSanchez.vercel.app/">
+    <meta property="og:type" content="webdesigner">
+    <meta property="og:image" content="https://res.cloudinary.com/doasb61co/image/upload/v1749839933/logo_ewgaro.png">
+    <meta property="og:locale" content="es_ES">
+    <link rel="icon" href="assets/images/logo-transparent.png" type="image/x-icon">
     <title>Portfolio Jorge Sánchez</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,7 +32,30 @@
             <a href="#contacto-id">Contacto</a>
         </nav>
     </header>
+    <div id="consentBox">
+        <img class="img-logo" src="assets/images/logo-transparent.png"
+             alt="Logo" title="logo">
+        <div id="consentContent">
+            <div id="consentHeader">
+                  Cookies: Es tu decisión
+            </div>
+            <p class="text">
+              Usamos cookies para que nuestro sitio funcione bien para ti y para poder mejorarlo continuamente.
+            <br>Las cookies necesarias para que el sitio funcione correctamente siempre estarán activadas.
+            </p>
+            <div class="buttons">
+                <button class="consentButton">
+                      Aceptar Cookies
+                  </button>
+                <button class="rejectButton">
+                      Rechazar
+                  </button>
+            </div>
+        </div>
+        </div>
     <main>
+        
+        
         <section class="foto" id="foto-principal-id">
             <img  class="foto-principal"  src="assets/images/WhatsApp Image 2025-06-11 at 17.05.40.jpeg" alt="Set-up Jorge">
             </section>
@@ -36,11 +73,11 @@
                 <p>¡EN CONSTRUCCIÓN!</p>
                 <p>Próximamente estará disponible esta web con la carta del restaurante incorporada.</p>
                 </div>
-                <img class="fotos" src="assets/images/home_image_v3.jpg" alt="Mas que Burguer">
+                <img class="fotos" src="assets/images/home_image_v3.webp" alt="Mas que Burguer">
             
             </article>
             <article class="rima-consulting">
-                <img class="fotos" src="assets/images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Rima Consulting">
+                <img class="fotos" src="assets/images/jay-wennington-N_Y88TWmGwA-unsplash.webp" alt="Rima Consulting">
                 <div class="rima-consulting-texto"><h3>Rima Consulting</h3>
                 <p>¡EN CONSTRUCCIÓN</p>
                 <p>Web en desarrollo para un asesor gastronómico en Alicante.</p>
@@ -67,24 +104,29 @@
                     Me encantan los animales, especialmente mi perro, Sultán. También soy un apasionado de los videojuegos y el streaming.
                 </p>
                 </div>
-                <img  src="assets/images/54484161971_2ee32e1532_o.jpg" alt="Jorge Trail">
+                <img  src="assets/images/54484161971_2ee32e1532_o.webp" alt="Jorge Trail">
             </article>
     
     </main>
     <footer>
-        <p>¡Contactame!</p>
+        
+        <div class="caja-logo">
         <div class="contacto" id="contacto-id">
-        <p><img src="assets/images/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (1).png" alt="">             jorgesanchezluky@gmail.com</p>
+        <p>¡Contactame!</p>
+            <p><img src="assets/images/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24 (1).png" alt="email">             jorgesanchezluky@gmail.com</p>
         </div>
+        <img class="logo-footer" src="assets/images/logo-transparent.png" alt="logo">
+    </div>
         <div class="copyright">
             <p>Copyright 2025 Jorge Sánchez Gallego</p>
             <p>Todos los derechos reservados</p>
             
-            <p>Politica de privacidad de datos</p>
+            <p><a href="Politica.html" target="_blank" class="abrir-politica">Politica de privacidad de datos</a></p>
         
         </div>
         
     </footer>
+    
 
 
     <script src="scripts.js"></script>
